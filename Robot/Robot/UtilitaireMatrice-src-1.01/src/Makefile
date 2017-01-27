@@ -1,0 +1,66 @@
+
+DIR = M:/GTK_install
+
+INCLUDES = -I. \
+	-I X:/MinGW/include \
+	-I $(DIR)/GTK/include/gtk-2.0 \
+	-I $(DIR)/GTK/include/glib-2.0 \
+	-I $(DIR)/GTK/lib/glib-2.0/include \
+	-I $(DIR)/GTK/include/cairo/ \
+	-I $(DIR)/GTK/include/pango-1.0/ \
+	-I $(DIR)/GTK/lib/gtk-2.0/include \
+	-I $(DIR)/GTK/include/gdk-pixbuf-2.0 \
+	-I $(DIR)/GTK/include/atk-1.0
+
+LIBS = -L $(DIR)/GTK/lib \
+	-l glib-2.0 \
+	-l gio-2.0 \
+	-l cairo \
+	-l atk-1.0 \
+	-l gdk-win32-2.0 \
+	-l gdk_pixbuf-2.0 \
+	-l gthread-2.0 \
+	-l gtk-win32-2.0 \
+	-l libpng \
+	-l pango-1.0 \
+	-l pangocairo-1.0 \
+	-l pangowin32-1.0 \
+	-l gmodule-2.0 \
+	-l gailutil \
+	-l freetype \
+	-l fontconfig \
+	-l expat \
+	-l gobject-2.0 \
+	-l gmodule-2.0
+
+#RM =   del
+RM  =   rm -f
+
+all: matrice.exe
+
+matrice.exe: presentation.o callbacks.o modele.o controle.o matrice.o hasard.o main.o
+	gcc presentation.o callbacks.o modele.o controle.o matrice.o hasard.o main.o -mms-bitfields -lm $(LIBS) -Wall  -o ../bin/matrice.exe
+
+presentation.o: presentation.c presentation.h
+	gcc -c -Wall -mms-bitfields $(INCLUDES) presentation.c
+
+callbacks.o: callbacks.c callbacks.h
+	gcc -c -Wall -mms-bitfields $(INCLUDES) callbacks.c
+
+modele.o: modele.c modele.h
+	gcc -c -Wall -mms-bitfields $(INCLUDES) modele.c
+
+controle.o: controle.c controle.h
+	gcc -c -Wall -mms-bitfields $(INCLUDES) controle.c
+
+matrice.o: matrice.c matrice.h
+	gcc -c -Wall -mms-bitfields $(INCLUDES) matrice.c
+
+hasard.o: hasard.c hasard.h
+	gcc -c -Wall -mms-bitfields $(INCLUDES) hasard.c
+
+main.o: main.c
+	gcc -c -Wall -mms-bitfields $(INCLUDES) main.c
+
+clean:
+	$(RM) *.o *.exe *~

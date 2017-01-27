@@ -1,0 +1,606 @@
+
+	YOUR COMMAND LINE : cncc.exe ../callbacks.c ../controle.c ../hasard.c ../main.c ../matrice.c ../modele.c ../presentation.c ../callbacks.h ../controle.h ../hasard.h ../matrice.h ../modele.h ../parametres.h ../presentation.h ../vs10settings.h 
+
+
+
+
+                    =============================
+                    ### File ; ../callbacks.c ###
+                    =============================
+
+                    ------------------------------------
+                    Files purified from comments created
+                    * callbacks.ci2
+                    * callbacks.ci3
+                    ------------------------------------
+
+
+../callbacks.c      --- Summary Report (numbers) ---
+../callbacks.c      =====================================
+../callbacks.c      ;               ;   Lines ;   Chars ;
+../callbacks.c      ;-----------------------------------;
+../callbacks.c      ; Code Only     ;      96 ;    4079 ;
+../callbacks.c      ; Code+Comment  ;       2 ;       - ;
+../callbacks.c      ; Comment Only  ;      20 ;    1196 ;
+../callbacks.c      ; Empty         ;      35 ;     389 ;
+../callbacks.c      ;...................................;
+../callbacks.c      ; * Total       ;     153 ;    5664 ;
+../callbacks.c      =====================================
+
+../callbacks.c      --- Summary Report (percents) ---
+../callbacks.c      =====================================
+../callbacks.c      ;               ;   Lines ;   Chars ;
+../callbacks.c      ;-----------------------------------;
+../callbacks.c      ; Code Only     ;  62.7 % ;  72.0 % ;
+../callbacks.c      ; Code+Comment  ;   1.3 % ;       - ;
+../callbacks.c      ; Comment Only  ;  13.1 % ;  21.1 % ;
+../callbacks.c      ; Empty         ;  22.9 % ;   6.9 % ;
+../callbacks.c      ;...................................;
+../callbacks.c      ; * Total       ;   100 % ;   100 % ;
+../callbacks.c      =====================================
+
+
+
+
+                    ============================
+                    ### File ; ../controle.c ###
+                    ============================
+
+                    ------------------------------------
+                    Files purified from comments created
+                    * controle.ci2
+                    * controle.ci3
+                    ------------------------------------
+
+
+../controle.c       --- Summary Report (numbers) ---
+../controle.c       =====================================
+../controle.c       ;               ;   Lines ;   Chars ;
+../controle.c       ;-----------------------------------;
+../controle.c       ; Code Only     ;     304 ;    8539 ;
+../controle.c       ; Code+Comment  ;      28 ;       - ;
+../controle.c       ; Comment Only  ;      99 ;    6136 ;
+../controle.c       ; Empty         ;      89 ;    2109 ;
+../controle.c       ;...................................;
+../controle.c       ; * Total       ;     520 ;   16784 ;
+../controle.c       =====================================
+
+../controle.c       --- Summary Report (percents) ---
+../controle.c       =====================================
+../controle.c       ;               ;   Lines ;   Chars ;
+../controle.c       ;-----------------------------------;
+../controle.c       ; Code Only     ;  58.5 % ;  50.9 % ;
+../controle.c       ; Code+Comment  ;   5.4 % ;       - ;
+../controle.c       ; Comment Only  ;  19.0 % ;  36.6 % ;
+../controle.c       ; Empty         ;  17.1 % ;  12.6 % ;
+../controle.c       ;...................................;
+../controle.c       ; * Total       ;   100 % ;   100 % ;
+../controle.c       =====================================
+
+
+
+
+                    ==========================
+                    ### File ; ../hasard.c ###
+                    ==========================
+
+                    ------------------------------------
+                    Files purified from comments created
+                    * hasard.ci2
+                    * hasard.ci3
+                    ------------------------------------
+
+
+../hasard.c         --- Summary Report (numbers) ---
+../hasard.c         =====================================
+../hasard.c         ;               ;   Lines ;   Chars ;
+../hasard.c         ;-----------------------------------;
+../hasard.c         ; Code Only     ;      18 ;     364 ;
+../hasard.c         ; Code+Comment  ;       0 ;       - ;
+../hasard.c         ; Comment Only  ;      11 ;     288 ;
+../hasard.c         ; Empty         ;       7 ;      84 ;
+../hasard.c         ;...................................;
+../hasard.c         ; * Total       ;      36 ;     736 ;
+../hasard.c         =====================================
+
+../hasard.c         --- Summary Report (percents) ---
+../hasard.c         =====================================
+../hasard.c         ;               ;   Lines ;   Chars ;
+../hasard.c         ;-----------------------------------;
+../hasard.c         ; Code Only     ;  50.0 % ;  49.5 % ;
+../hasard.c         ; Code+Comment  ;   0.0 % ;       - ;
+../hasard.c         ; Comment Only  ;  30.6 % ;  39.1 % ;
+../hasard.c         ; Empty         ;  19.4 % ;  11.4 % ;
+../hasard.c         ;...................................;
+../hasard.c         ; * Total       ;   100 % ;   100 % ;
+../hasard.c         =====================================
+
+
+
+
+                    ========================
+                    ### File ; ../main.c ###
+                    ========================
+
+                    ------------------------------------
+                    Files purified from comments created
+                    * main.ci2
+                    * main.ci3
+                    ------------------------------------
+
+
+../main.c           --- Summary Report (numbers) ---
+../main.c           =====================================
+../main.c           ;               ;   Lines ;   Chars ;
+../main.c           ;-----------------------------------;
+../main.c           ; Code Only     ;      28 ;     711 ;
+../main.c           ; Code+Comment  ;       2 ;       - ;
+../main.c           ; Comment Only  ;      27 ;    1370 ;
+../main.c           ; Empty         ;      19 ;     152 ;
+../main.c           ;...................................;
+../main.c           ; * Total       ;      76 ;    2233 ;
+../main.c           =====================================
+
+../main.c           --- Summary Report (percents) ---
+../main.c           =====================================
+../main.c           ;               ;   Lines ;   Chars ;
+../main.c           ;-----------------------------------;
+../main.c           ; Code Only     ;  36.8 % ;  31.8 % ;
+../main.c           ; Code+Comment  ;   2.6 % ;       - ;
+../main.c           ; Comment Only  ;  35.5 % ;  61.4 % ;
+../main.c           ; Empty         ;  25.0 % ;   6.8 % ;
+../main.c           ;...................................;
+../main.c           ; * Total       ;   100 % ;   100 % ;
+../main.c           =====================================
+
+
+
+
+                    ===========================
+                    ### File ; ../matrice.c ###
+                    ===========================
+
+                    ------------------------------------
+                    Files purified from comments created
+                    * matrice.ci2
+                    * matrice.ci3
+                    ------------------------------------
+
+
+../matrice.c        --- Summary Report (numbers) ---
+../matrice.c        =====================================
+../matrice.c        ;               ;   Lines ;   Chars ;
+../matrice.c        ;-----------------------------------;
+../matrice.c        ; Code Only     ;     151 ;    2685 ;
+../matrice.c        ; Code+Comment  ;       3 ;       - ;
+../matrice.c        ; Comment Only  ;       9 ;     384 ;
+../matrice.c        ; Empty         ;      41 ;     931 ;
+../matrice.c        ;...................................;
+../matrice.c        ; * Total       ;     204 ;    4000 ;
+../matrice.c        =====================================
+
+../matrice.c        --- Summary Report (percents) ---
+../matrice.c        =====================================
+../matrice.c        ;               ;   Lines ;   Chars ;
+../matrice.c        ;-----------------------------------;
+../matrice.c        ; Code Only     ;  74.0 % ;  67.1 % ;
+../matrice.c        ; Code+Comment  ;   1.5 % ;       - ;
+../matrice.c        ; Comment Only  ;   4.4 % ;   9.6 % ;
+../matrice.c        ; Empty         ;  20.1 % ;  23.3 % ;
+../matrice.c        ;...................................;
+../matrice.c        ; * Total       ;   100 % ;   100 % ;
+../matrice.c        =====================================
+
+
+
+
+                    ==========================
+                    ### File ; ../modele.c ###
+                    ==========================
+
+                    ------------------------------------
+                    Files purified from comments created
+                    * modele.ci2
+                    * modele.ci3
+                    ------------------------------------
+
+
+../modele.c         --- Summary Report (numbers) ---
+../modele.c         =====================================
+../modele.c         ;               ;   Lines ;   Chars ;
+../modele.c         ;-----------------------------------;
+../modele.c         ; Code Only     ;     209 ;    4431 ;
+../modele.c         ; Code+Comment  ;       1 ;       - ;
+../modele.c         ; Comment Only  ;      59 ;    2974 ;
+../modele.c         ; Empty         ;      68 ;    1273 ;
+../modele.c         ;...................................;
+../modele.c         ; * Total       ;     337 ;    8678 ;
+../modele.c         =====================================
+
+../modele.c         --- Summary Report (percents) ---
+../modele.c         =====================================
+../modele.c         ;               ;   Lines ;   Chars ;
+../modele.c         ;-----------------------------------;
+../modele.c         ; Code Only     ;  62.0 % ;  51.1 % ;
+../modele.c         ; Code+Comment  ;   0.3 % ;       - ;
+../modele.c         ; Comment Only  ;  17.5 % ;  34.3 % ;
+../modele.c         ; Empty         ;  20.2 % ;  14.7 % ;
+../modele.c         ;...................................;
+../modele.c         ; * Total       ;   100 % ;   100 % ;
+../modele.c         =====================================
+
+
+
+
+                    ================================
+                    ### File ; ../presentation.c ###
+                    ================================
+
+                    ------------------------------------
+                    Files purified from comments created
+                    * presentation.ci2
+                    * presentation.ci3
+                    ------------------------------------
+
+
+../presentation.c   --- Summary Report (numbers) ---
+../presentation.c   =====================================
+../presentation.c   ;               ;   Lines ;   Chars ;
+../presentation.c   ;-----------------------------------;
+../presentation.c   ; Code Only     ;     145 ;    5971 ;
+../presentation.c   ; Code+Comment  ;       3 ;       - ;
+../presentation.c   ; Comment Only  ;      57 ;    3250 ;
+../presentation.c   ; Empty         ;      57 ;     911 ;
+../presentation.c   ;...................................;
+../presentation.c   ; * Total       ;     262 ;   10132 ;
+../presentation.c   =====================================
+
+../presentation.c   --- Summary Report (percents) ---
+../presentation.c   =====================================
+../presentation.c   ;               ;   Lines ;   Chars ;
+../presentation.c   ;-----------------------------------;
+../presentation.c   ; Code Only     ;  55.3 % ;  58.9 % ;
+../presentation.c   ; Code+Comment  ;   1.1 % ;       - ;
+../presentation.c   ; Comment Only  ;  21.8 % ;  32.1 % ;
+../presentation.c   ; Empty         ;  21.8 % ;   9.0 % ;
+../presentation.c   ;...................................;
+../presentation.c   ; * Total       ;   100 % ;   100 % ;
+../presentation.c   =====================================
+
+
+
+
+                    =============================
+                    ### File ; ../callbacks.h ###
+                    =============================
+
+                    ------------------------------------
+                    Files purified from comments created
+                    * callbacks.hi2
+                    * callbacks.hi3
+                    ------------------------------------
+
+
+../callbacks.h      --- Summary Report (numbers) ---
+../callbacks.h      =====================================
+../callbacks.h      ;               ;   Lines ;   Chars ;
+../callbacks.h      ;-----------------------------------;
+../callbacks.h      ; Code Only     ;      30 ;    2410 ;
+../callbacks.h      ; Code+Comment  ;       1 ;       - ;
+../callbacks.h      ; Comment Only  ;       6 ;     191 ;
+../callbacks.h      ; Empty         ;      14 ;     199 ;
+../callbacks.h      ;...................................;
+../callbacks.h      ; * Total       ;      51 ;    2800 ;
+../callbacks.h      =====================================
+
+../callbacks.h      --- Summary Report (percents) ---
+../callbacks.h      =====================================
+../callbacks.h      ;               ;   Lines ;   Chars ;
+../callbacks.h      ;-----------------------------------;
+../callbacks.h      ; Code Only     ;  58.8 % ;  86.1 % ;
+../callbacks.h      ; Code+Comment  ;   2.0 % ;       - ;
+../callbacks.h      ; Comment Only  ;  11.8 % ;   6.8 % ;
+../callbacks.h      ; Empty         ;  27.5 % ;   7.1 % ;
+../callbacks.h      ;...................................;
+../callbacks.h      ; * Total       ;   100 % ;   100 % ;
+../callbacks.h      =====================================
+
+
+
+
+                    ============================
+                    ### File ; ../controle.h ###
+                    ============================
+
+                    ------------------------------------
+                    Files purified from comments created
+                    * controle.hi2
+                    * controle.hi3
+                    ------------------------------------
+
+
+../controle.h       --- Summary Report (numbers) ---
+../controle.h       =====================================
+../controle.h       ;               ;   Lines ;   Chars ;
+../controle.h       ;-----------------------------------;
+../controle.h       ; Code Only     ;      39 ;     900 ;
+../controle.h       ; Code+Comment  ;       1 ;       - ;
+../controle.h       ; Comment Only  ;      15 ;     979 ;
+../controle.h       ; Empty         ;      11 ;     127 ;
+../controle.h       ;...................................;
+../controle.h       ; * Total       ;      66 ;    2006 ;
+../controle.h       =====================================
+
+../controle.h       --- Summary Report (percents) ---
+../controle.h       =====================================
+../controle.h       ;               ;   Lines ;   Chars ;
+../controle.h       ;-----------------------------------;
+../controle.h       ; Code Only     ;  59.1 % ;  44.9 % ;
+../controle.h       ; Code+Comment  ;   1.5 % ;       - ;
+../controle.h       ; Comment Only  ;  22.7 % ;  48.8 % ;
+../controle.h       ; Empty         ;  16.7 % ;   6.3 % ;
+../controle.h       ;...................................;
+../controle.h       ; * Total       ;   100 % ;   100 % ;
+../controle.h       =====================================
+
+
+
+
+                    ==========================
+                    ### File ; ../hasard.h ###
+                    ==========================
+
+                    ------------------------------------
+                    Files purified from comments created
+                    * hasard.hi2
+                    * hasard.hi3
+                    ------------------------------------
+
+
+../hasard.h         --- Summary Report (numbers) ---
+../hasard.h         =====================================
+../hasard.h         ;               ;   Lines ;   Chars ;
+../hasard.h         ;-----------------------------------;
+../hasard.h         ; Code Only     ;       4 ;     114 ;
+../hasard.h         ; Code+Comment  ;       1 ;       - ;
+../hasard.h         ; Comment Only  ;       8 ;     337 ;
+../hasard.h         ; Empty         ;       4 ;      12 ;
+../hasard.h         ;...................................;
+../hasard.h         ; * Total       ;      17 ;     463 ;
+../hasard.h         =====================================
+
+../hasard.h         --- Summary Report (percents) ---
+../hasard.h         =====================================
+../hasard.h         ;               ;   Lines ;   Chars ;
+../hasard.h         ;-----------------------------------;
+../hasard.h         ; Code Only     ;  23.5 % ;  24.6 % ;
+../hasard.h         ; Code+Comment  ;   5.9 % ;       - ;
+../hasard.h         ; Comment Only  ;  47.1 % ;  72.8 % ;
+../hasard.h         ; Empty         ;  23.5 % ;   2.6 % ;
+../hasard.h         ;...................................;
+../hasard.h         ; * Total       ;   100 % ;   100 % ;
+../hasard.h         =====================================
+
+
+
+
+                    ===========================
+                    ### File ; ../matrice.h ###
+                    ===========================
+
+                    ------------------------------------
+                    Files purified from comments created
+                    * matrice.hi2
+                    * matrice.hi3
+                    ------------------------------------
+
+
+../matrice.h        --- Summary Report (numbers) ---
+../matrice.h        =====================================
+../matrice.h        ;               ;   Lines ;   Chars ;
+../matrice.h        ;-----------------------------------;
+../matrice.h        ; Code Only     ;      22 ;     815 ;
+../matrice.h        ; Code+Comment  ;       4 ;       - ;
+../matrice.h        ; Comment Only  ;       7 ;     362 ;
+../matrice.h        ; Empty         ;       5 ;     168 ;
+../matrice.h        ;...................................;
+../matrice.h        ; * Total       ;      38 ;    1345 ;
+../matrice.h        =====================================
+
+../matrice.h        --- Summary Report (percents) ---
+../matrice.h        =====================================
+../matrice.h        ;               ;   Lines ;   Chars ;
+../matrice.h        ;-----------------------------------;
+../matrice.h        ; Code Only     ;  57.9 % ;  60.6 % ;
+../matrice.h        ; Code+Comment  ;  10.5 % ;       - ;
+../matrice.h        ; Comment Only  ;  18.4 % ;  26.9 % ;
+../matrice.h        ; Empty         ;  13.2 % ;  12.5 % ;
+../matrice.h        ;...................................;
+../matrice.h        ; * Total       ;   100 % ;   100 % ;
+../matrice.h        =====================================
+
+
+
+
+                    ==========================
+                    ### File ; ../modele.h ###
+                    ==========================
+
+                    ------------------------------------
+                    Files purified from comments created
+                    * modele.hi2
+                    * modele.hi3
+                    ------------------------------------
+
+
+../modele.h         --- Summary Report (numbers) ---
+../modele.h         =====================================
+../modele.h         ;               ;   Lines ;   Chars ;
+../modele.h         ;-----------------------------------;
+../modele.h         ; Code Only     ;      30 ;     926 ;
+../modele.h         ; Code+Comment  ;       2 ;       - ;
+../modele.h         ; Comment Only  ;      15 ;    1020 ;
+../modele.h         ; Empty         ;      10 ;     154 ;
+../modele.h         ;...................................;
+../modele.h         ; * Total       ;      57 ;    2100 ;
+../modele.h         =====================================
+
+../modele.h         --- Summary Report (percents) ---
+../modele.h         =====================================
+../modele.h         ;               ;   Lines ;   Chars ;
+../modele.h         ;-----------------------------------;
+../modele.h         ; Code Only     ;  52.6 % ;  44.1 % ;
+../modele.h         ; Code+Comment  ;   3.5 % ;       - ;
+../modele.h         ; Comment Only  ;  26.3 % ;  48.6 % ;
+../modele.h         ; Empty         ;  17.5 % ;   7.3 % ;
+../modele.h         ;...................................;
+../modele.h         ; * Total       ;   100 % ;   100 % ;
+../modele.h         =====================================
+
+
+
+
+                    ==============================
+                    ### File ; ../parametres.h ###
+                    ==============================
+
+                    ------------------------------------
+                    Files purified from comments created
+                    * parametres.hi2
+                    * parametres.hi3
+                    ------------------------------------
+
+
+../parametres.h     --- Summary Report (numbers) ---
+../parametres.h     =====================================
+../parametres.h     ;               ;   Lines ;   Chars ;
+../parametres.h     ;-----------------------------------;
+../parametres.h     ; Code Only     ;      13 ;     283 ;
+../parametres.h     ; Code+Comment  ;       1 ;       - ;
+../parametres.h     ; Comment Only  ;      15 ;     983 ;
+../parametres.h     ; Empty         ;       7 ;      28 ;
+../parametres.h     ;...................................;
+../parametres.h     ; * Total       ;      36 ;    1294 ;
+../parametres.h     =====================================
+
+../parametres.h     --- Summary Report (percents) ---
+../parametres.h     =====================================
+../parametres.h     ;               ;   Lines ;   Chars ;
+../parametres.h     ;-----------------------------------;
+../parametres.h     ; Code Only     ;  36.1 % ;  21.9 % ;
+../parametres.h     ; Code+Comment  ;   2.8 % ;       - ;
+../parametres.h     ; Comment Only  ;  41.7 % ;  76.0 % ;
+../parametres.h     ; Empty         ;  19.4 % ;   2.2 % ;
+../parametres.h     ;...................................;
+../parametres.h     ; * Total       ;   100 % ;   100 % ;
+../parametres.h     =====================================
+
+
+
+
+                    ================================
+                    ### File ; ../presentation.h ###
+                    ================================
+
+                    ------------------------------------
+                    Files purified from comments created
+                    * presentation.hi2
+                    * presentation.hi3
+                    ------------------------------------
+
+
+../presentation.h   --- Summary Report (numbers) ---
+../presentation.h   =====================================
+../presentation.h   ;               ;   Lines ;   Chars ;
+../presentation.h   ;-----------------------------------;
+../presentation.h   ; Code Only     ;      42 ;    1537 ;
+../presentation.h   ; Code+Comment  ;       3 ;       - ;
+../presentation.h   ; Comment Only  ;      19 ;    1157 ;
+../presentation.h   ; Empty         ;      27 ;     201 ;
+../presentation.h   ;...................................;
+../presentation.h   ; * Total       ;      91 ;    2895 ;
+../presentation.h   =====================================
+
+../presentation.h   --- Summary Report (percents) ---
+../presentation.h   =====================================
+../presentation.h   ;               ;   Lines ;   Chars ;
+../presentation.h   ;-----------------------------------;
+../presentation.h   ; Code Only     ;  46.2 % ;  53.1 % ;
+../presentation.h   ; Code+Comment  ;   3.3 % ;       - ;
+../presentation.h   ; Comment Only  ;  20.9 % ;  40.0 % ;
+../presentation.h   ; Empty         ;  29.7 % ;   6.9 % ;
+../presentation.h   ;...................................;
+../presentation.h   ; * Total       ;   100 % ;   100 % ;
+../presentation.h   =====================================
+
+
+
+
+                    ================================
+                    ### File ; ../vs10settings.h ###
+                    ================================
+
+                    ------------------------------------
+                    Files purified from comments created
+                    * vs10settings.hi2
+                    * vs10settings.hi3
+                    ------------------------------------
+
+
+../vs10settings.h   --- Summary Report (numbers) ---
+../vs10settings.h   =====================================
+../vs10settings.h   ;               ;   Lines ;   Chars ;
+../vs10settings.h   ;-----------------------------------;
+../vs10settings.h   ; Code Only     ;       4 ;     151 ;
+../vs10settings.h   ; Code+Comment  ;       1 ;       - ;
+../vs10settings.h   ; Comment Only  ;      10 ;     434 ;
+../vs10settings.h   ; Empty         ;      10 ;      11 ;
+../vs10settings.h   ;...................................;
+../vs10settings.h   ; * Total       ;      25 ;     596 ;
+../vs10settings.h   =====================================
+
+../vs10settings.h   --- Summary Report (percents) ---
+../vs10settings.h   =====================================
+../vs10settings.h   ;               ;   Lines ;   Chars ;
+../vs10settings.h   ;-----------------------------------;
+../vs10settings.h   ; Code Only     ;  16.0 % ;  25.3 % ;
+../vs10settings.h   ; Code+Comment  ;   4.0 % ;       - ;
+../vs10settings.h   ; Comment Only  ;  40.0 % ;  72.8 % ;
+../vs10settings.h   ; Empty         ;  40.0 % ;   1.8 % ;
+../vs10settings.h   ;...................................;
+../vs10settings.h   ; * Total       ;   100 % ;   100 % ;
+../vs10settings.h   =====================================
+
+
+
+
+
+
+                    ========================
+                    ##### All 15 files #####
+                    ========================
+
+
+All files           --- Summary Report (numbers) ---
+All files           =====================================
+All files           ;               ;   Lines ;   Chars ;
+All files           ;-----------------------------------;
+All files           ; Code Only     ;    1135 ;   33916 ;
+All files           ; Code+Comment  ;      53 ;       - ;
+All files           ; Comment Only  ;     377 ;   21061 ;
+All files           ; Empty         ;     404 ;    6749 ;
+All files           ;...................................;
+All files           ; * Total       ;    1969 ;   61726 ;
+All files           =====================================
+
+All files           --- Summary Report (percents) ---
+All files           =====================================
+All files           ;               ;   Lines ;   Chars ;
+All files           ;-----------------------------------;
+All files           ; Code Only     ;  57.6 % ;  54.9 % ;
+All files           ; Code+Comment  ;   2.7 % ;       - ;
+All files           ; Comment Only  ;  19.1 % ;  34.1 % ;
+All files           ; Empty         ;  20.5 % ;  10.9 % ;
+All files           ;...................................;
+All files           ; * Total       ;   100 % ;   100 % ;
+All files           =====================================

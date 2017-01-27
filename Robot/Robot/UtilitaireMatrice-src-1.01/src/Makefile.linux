@@ -1,0 +1,64 @@
+
+DIR = /usr/
+
+INCLUDES = -I. \
+	-I $(DIR)/include/gtk-2.0 \
+	-I $(DIR)/include/glib-2.0 \
+	-I $(DIR)/lib/glib-2.0/include \
+	-I $(DIR)/include/cairo/ \
+	-I $(DIR)/include/pango-1.0/ \
+	-I $(DIR)/lib/gtk-2.0/include \
+	-I $(DIR)/include/gdk-pixbuf-2.0 \
+	-I $(DIR)/include/atk-1.0
+
+LIBS = -L $(DIR)/lib -L /lib \
+	-l glib-2.0 \
+	-l gio-2.0 \
+	-l cairo \
+	-l atk-1.0 \
+	-l gdk-x11-2.0 \
+	-l gdk_pixbuf-2.0 \
+	-l gthread-2.0 \
+	-l gtk-x11-2.0 \
+	-l png \
+	-l pango-1.0 \
+	-l pangocairo-1.0 \
+	-l pango-1.0 \
+	-l gmodule-2.0 \
+	-l gailutil \
+	-l freetype \
+	-l fontconfig \
+	-l expat \
+	-l gobject-2.0 \
+	-l gmodule-2.0
+
+RM  =   rm -f
+
+all: matrice
+
+matrice: presentation.o callbacks.o modele.o controle.o matrice.o hasard.o main.o
+	gcc presentation.o callbacks.o modele.o controle.o matrice.o hasard.o main.o -export-dynamic -mms-bitfields -lm $(LIBS) -Wall -export-dynamic  -o ../bin/matrice
+
+presentation.o: presentation.c presentation.h
+	gcc -c -Wall -mms-bitfields $(INCLUDES) presentation.c
+
+callbacks.o: callbacks.c callbacks.h
+	gcc -c -Wall -mms-bitfields $(INCLUDES) callbacks.c
+
+modele.o: modele.c modele.h
+	gcc -c -Wall -mms-bitfields $(INCLUDES) modele.c
+
+controle.o: controle.c controle.h
+	gcc -c -Wall -mms-bitfields $(INCLUDES) controle.c
+
+matrice.o: matrice.c matrice.h
+	gcc -c -Wall -mms-bitfields $(INCLUDES) matrice.c
+
+hasard.o: hasard.c hasard.h
+	gcc -c -Wall -mms-bitfields $(INCLUDES) hasard.c
+
+main.o: main.c
+	gcc -c -Wall -mms-bitfields $(INCLUDES) main.c
+
+clean:
+	$(RM) *.o *~
